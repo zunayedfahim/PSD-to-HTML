@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 57.5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header > .row > img,
+  header > .row > h1,
+  header > .row > h2,
+  header > .row > p {
+    margin-left: 1rem;
+  }
+  .contact {
+    display: none;
+  }
+  .about-us > .row > .col > img {
+    width: 90%;
+    margin-top: 17rem;
+    float: none;
+  }
+  .about-us > .row > .col > p {
+    margin: 3rem auto;
+    font-size: 1.5rem;
+    width: 97%;
+  }
+  .specialities > .row > .col > img {
+    width: 70%;
+  }
+  .specialities > .row > .col > p {
+    width: 70%;
+  }
+  .span_1_of_3 {
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin: 1rem auto;
+  }
+  footer > .row > .col > p {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .btn-reserve:link,
+  .btn-reserve:visited,
+  .btn-reserve {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  .icon:link,
+  .icon:visited,
+  .icon {
+    padding: 1rem;
+    margin: 2rem 0.5rem 0 0.5rem;
+    font-size: 1rem;
+  }
+  .copyright {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .specialities > .row > p {
+    width: 80%;
+  }
+  .span_1_of_2 {
+    width: 100%;
+    margin: auto;
+  }
+  .about-us > .row > .col > img {
+    display: none;
+  }
+  .span_1_of_4 {
+    width: 100%;
+    margin: auto;
+  }
+  .main-nav {
+    margin-top: 2.5rem;
+  }
+  .main-nav > ul > li {
+    font-size: 1.3rem;
+  }
+
+  .main-nav > ul > li > a {
+    margin: 0.5rem;
+  }
+  .menu > .row > p,
+  .bookings > .row > p {
+    width: 80%;
+    margin: 3rem auto;
+  }
+  header > .row > p {
+    font-size: 1.5rem;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .main-nav > ul > li {
+    font-size: 1rem;
+  }
+  .main-nav > ul > li > a {
+    margin: 0.3rem;
+  }
+}
