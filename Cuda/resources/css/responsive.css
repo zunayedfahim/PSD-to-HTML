@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1200px) {
+  .row {
+    margin: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-nav {
+    display: none;
+  }
+  .mobile-menu > span {
+    display: block;
+  }
+  html {
+    font-size: 57.5%;
+  }
+  .portfolio-card > img {
+    width: 90%;
+  }
+  .contact-section > form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .span_1_of_4 {
+    width: 49.2%;
+  }
+  .span_1_of_4:nth-child(3) {
+    margin-left: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  footer > .row > ul > li {
+    margin: 2rem 1.5rem;
+  }
+
+  footer > .row > ul > li > a:link,
+  footer > .row > ul > li > a:visited {
+    font-size: 1.5rem;
+  }
+  footer {
+    height: 5.6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .little-description {
+    width: 80%;
+    margin: auto;
+  }
+  html {
+    font-size: 57.5%;
+  }
+  .client-img > img {
+    float: none;
+  }
+  .portfolio-card > p {
+    font-size: 1.6rem;
+    margin: 1.5rem;
+  }
+  .span_1_of_3 {
+    width: 100%;
+  }
+  .span_2_of_3 {
+    width: 100%;
+  }
+  .client-card > .col > .quotes {
+    text-align: center;
+    width: 90%;
+    height: 14rem;
+    margin: 0 auto;
+  }
+  .client-card > .col > h3,
+  .client-card > .col > p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .services-section > .row > .services-card {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .client-card > .col > .quotes {
+    height: auto;
+  }
+  footer > .row > ul > li {
+    margin: 2rem 0.6rem;
+  }
+  .span_1_of_2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .span_1_of_4 {
+    width: 100%;
+  }
+  .portfolio-filter {
+    margin: 4rem 0;
+  }
+  footer > .row > ul > li > a:link,
+  footer > .row > ul > li > a:visited {
+    font-size: 1rem;
+  }
+  footer > .row > ul > li {
+    margin: 2rem 0.6rem;
+  }
+
+@media only screen and (max-width: 360px) {
+  .portfolio-filter > button {
+    width: 6rem;
+    height: 3rem;
+  }
+
+  footer > .row > ul > li {
+    margin: 1rem 0.4rem;
+  }
+
+  footer > .row > ul > li > a:link,
+  footer > .row > ul > li > a:visited {
+    font-size: 0.8rem;
+  }
+  footer {
+    height: 3.5rem;
+  }
+  .client-card > .col > .quotes {
+    text-align: center;
+    width: 90%;
+    height: auto;
+  }
+  .client-card > .col > .quotes {
+    margin: 0 auto;
+  }
+}
